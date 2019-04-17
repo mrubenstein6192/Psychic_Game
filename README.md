@@ -1,4 +1,7 @@
 # Psychic_Game
+
+https://mrubenstein6192.github.io/Psychic_Game/
+
 In this game, the user tries to guess which letter the computer has randomly chosen.  
 
 The user will have up to 10 guesses before he/she loses and has to try again.  
