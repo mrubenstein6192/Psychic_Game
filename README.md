@@ -10,13 +10,13 @@ When a user guesses correctly, he/she receives a win and the game restarts.
 
 The game will record each incorrect guess so that the user does not repeat a guess.
 
-##Built With
+## Built With
 - HTML
 - JavaScript
 
-##Authors
+## Authors
 -Mike Rubenstein
 
-##Future Improvements
+## Future Improvements
 -Styling
 
