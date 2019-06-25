@@ -34,7 +34,9 @@ var userGuess = event.key;
 //if user letter matches computer letter, add 1 to wins and restart the game//
 if (userGuess === computerGuess) {
       wins++;
+      userGuessText.textContent = userGuess + ", which was correct!  Press any key to play again!"
       alert ("You read the computer's mind! " + computerGuess + " was correct!");
+      
       newGame();
 }
     //restart game//
@@ -44,6 +46,7 @@ if (userGuess === computerGuess) {
       guesses = guesses - 1;
       lettersAlreadyGuessed.push(" " + userGuess);
       //display userGuess on page//
+       userGuessText.textContent = userGuess + ", which was incorrect.  Try again!";
       
     }
     //when guesses = 0, restart game//
@@ -59,6 +62,6 @@ if (userGuess === computerGuess) {
         lossesText.textContent = + losses;
         guessesLeftText.textContent = + guesses;
         lettersAlreadyGuessedText.textContent = "" + lettersAlreadyGuessed;
-        userGuessText.textContent = "" + userGuess;
+       
     }
 newGame();
